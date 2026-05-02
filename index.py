@@ -8,13 +8,17 @@ def mnojenya(a,b):
     return a * b
 
 def dilenya(a,b):
-    return a / b
+    if b == 0:
+        return "Ділити на 0 неможна "
+    else:
+        return a / b
 
 
 operation = input("Введіть операцію калькулятора (+,-,*,/)")
 
 num_1 = int(input("Введіть перше число: "))
 num_2 = int(input("Введіть друге число: "))
+
 
 
 if operation == "+":
