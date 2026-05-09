@@ -17,17 +17,17 @@ def ser_grade():
 
 
 while True:
-    print("1 - Додати оцінку")
+    print("\n1 - Додати оцінку")
     print("2 - Показати оцінки")
     print("3 - Показати максимальну")
     print("4 - Показати мінімальну")
     print("5 - Показати середнє")
     print("0 - Вихід")
 
-    num_input = int(input("Оберіть дію "))
+    num_input = int(input("\nОберіть дію "))
 
     if num_input == 1:
-        num_grade = int(input("Введіть оцінку "))
+        num_grade = int(input("\nВведіть оцінку "))
         add_grade(num_grade)
 
     elif num_input == 2:
